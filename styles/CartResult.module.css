@@ -1,0 +1,63 @@
+.section {
+  flex: 1;
+}
+
+.section > div {
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid var(--color-lightgrey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-description {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.total-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.guide {
+  padding: 10px;
+  background-color: var(--color-ultralightgrey);
+  font-size: 12px;
+  color: var(--color-darkgrey);
+  margin-bottom: 20px;
+}
+
+.buy {
+  height: 55px;
+  display: flex;
+}
+
+.buy-price {
+  flex: 1;
+  background-color: #07636f;
+  text-align: center;
+  line-height: 55px;
+  vertical-align: middle;
+  color: var(--color-white);
+  font-weight: 500;
+}
