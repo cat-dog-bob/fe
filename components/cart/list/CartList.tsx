@@ -1,7 +1,7 @@
-import Button from '../Button';
-import CartSelectButton from './CartSelectButton';
-import styles from '@/styles/CartList.module.css';
-import CartItem from './CartItem';
+import Button from '@/components/Button';
+import CartSelectButton from '../button/CartSelectButton';
+import styles from './CartList.module.css';
+import CartItem from '../item/CartItem';
 
 export default function CartList() {
   return (

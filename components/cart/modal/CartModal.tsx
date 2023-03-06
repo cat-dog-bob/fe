@@ -1,7 +1,7 @@
-import Button from '../Button';
-import ModalPortal from '../modal/ModalPortal';
-import CartCountButton from './CartCountButton';
-import styles from '@/styles/CartModal.module.css';
+import Button from '@/components/Button';
+import ModalPortal from '../../modal/ModalPortal';
+import CartCountButton from '../button/CartCountButton';
+import styles from './CartModal.module.css';
 
 export default function CartModal() {
   return (

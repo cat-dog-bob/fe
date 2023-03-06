@@ -1,6 +1,6 @@
-import Button from '../Button';
+import Button from '@/components/Button';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
-import styles from '@/styles/CartCountButton.module.css';
+import styles from './CartCountButton.module.css';
 
 export default function CartCountButton() {
   return (

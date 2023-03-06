@@ -1,9 +1,9 @@
-import CartSelectButton from './CartSelectButton';
-import styles from '@/styles/CartItem.module.css';
+import CartSelectButton from '../button/CartSelectButton';
+import styles from './CartItem.module.css';
 import Image from 'next/image';
 import { GrClose } from 'react-icons/gr';
-import Button from '../Button';
-import CartCountButton from './CartCountButton';
+import Button from '@/components/Button';
+import CartCountButton from '../button/CartCountButton';
 
 export default function CartItem() {
   return (

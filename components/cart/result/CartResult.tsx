@@ -1,5 +1,5 @@
-import styles from '@/styles/CartResult.module.css';
-import Button from '../Button';
+import styles from './CartResult.module.css';
+import Button from '@/components/Button';
 
 export default function CartResult() {
   return (
