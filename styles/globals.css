@@ -2,9 +2,11 @@
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono',
     'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --color-hotpink: #fd3875;
+  --color-primary: #1aa3b4;
+  --color-secondary: #e1f9fe;
   --color-darkgrey: #8a8a8a;
   --color-lightgrey: #d9d9d9;
+  --color-ultralightgrey: #f2f2f2;
   --color-black: #3e3e3e;
   --color-white: #ffffff;
 }
