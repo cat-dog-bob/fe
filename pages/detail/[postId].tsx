@@ -1,11 +1,23 @@
 import Image from "next/image";
 import styles from "../../styles/Detail.module.css"
 import shareBtn from "../../public/shareBtn.png"
+import { useEffect, useState } from "react";
 
 function Detail(){
+    const [test, setTest] = useState([])
+    const getData = async() => {
+        await fetch("/data/product.json").then((res)=> res.json()).then((res)=>setTest(res.results))
+    }
+
+    console.log(test)
+
+    useEffect(()=>{
+        getData();
+    },[])
     return  (
         <div>
-            <Image src={`https://image.bom.co.kr/product/detail/RFP/1912260440243588/_600.jpg`}
+            <Image 
+            src={test[0]?.image}
             alt="사료"
             width={800}
             height={500} />
