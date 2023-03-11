@@ -1,0 +1,23 @@
+.section {
+  flex: 1;
+}
+
+.select-all {
+  height: 60px;
+  background-color: var(--color-ultralightgrey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.select-all > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.select-all span {
+  font-size: 14px;
+}
