@@ -1,0 +1,30 @@
+.titlename{
+    text-align: center;
+    margin-top: 2vh;
+}
+.sharebutton {
+    position: relative;
+    left: 45vw;
+    bottom: 8vh;
+}
+
+.pricebox {
+    text-align: right;
+    margin-right: 10vw;
+    margin-top: 4vh;
+    font-size: 18px;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.addcart {
+    width: 60%;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: pink;
+    margin-left:20%;
+    margin-top: 4vh;
+    
+}
