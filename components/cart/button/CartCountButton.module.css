@@ -1,0 +1,14 @@
+.count-box {
+  width: 90px;
+  height: 30px;
+  border: 1px solid var(--color-lightgrey);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.number {
+  flex: 1;
+  text-align: center;
+}
