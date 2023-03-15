@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['pixabay.com'], // 이미지띄우기위한 임시처리
+    domains: ['pixabay.com'],
   },
 };
 
